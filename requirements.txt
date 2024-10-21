@@ -1,0 +1,4 @@
+selenium~=4.25.0
+behave~=1.2.6
+webdriver-manager~=4.0.2
+pytest~=8.3.3
