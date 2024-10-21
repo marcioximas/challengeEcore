@@ -6,18 +6,7 @@ This project is a **Test Automation Framework** designed using **Selenium**, **B
 
     
 
-│ challengeECore/ 
-    ├── features/ # Directory containing feature files (Gherkin scenarios) │
-    ├── pages/ # Page Object Model (POM) classes for web pages │ 
-    ├── steps/ # Step definitions for Behave scenarios 
-    ├── tests/ # Directory for feature files and other test artifacts │ 
-    ├── .gitignore # Git ignore file for excluding unnecessary files 
-    ├── behave.ini # Behave configuration file 
-    ├── pytest.ini # pytest configuration file for integrations 
-    ├── requirements.txt # List of dependencies required for the project 
-    ├── run.py # Entry point for running the tests 
-    ├── report.html # Generated HTML report from the latest test run 
-    └── README.md # Project documentation (this file)
+challengeECore/ ├── features/ # Directory containing feature files (Gherkin scenarios) │ ├── pages/ # Page Object Model (POM) classes for web pages │ │ ├── init.py # Makes pages a package │ │ ├── base_page.py # Base class for all pages with common methods │ │ ├── home_page.py # Home page related actions and elements │ │ ├── invoice_details_page.py # Invoice details page actions and elements │ │ └── login_page.py # Login page actions and elements │ ├── steps/ # Step definitions for Behave scenarios │ └── tests/ # Directory for feature files and other test artifacts │ ├── .gitignore # Git ignore file for excluding unnecessary files ├── behave.ini # Behave configuration file ├── pytest.ini # pytest configuration file for integrations ├── requirements.txt # List of dependencies required for the project ├── run.py # Entry point for running the tests ├── report.html # Generated HTML report from the latest test run └── README.md # Project documentation (this file)
 
 ## Prerequisites
 
